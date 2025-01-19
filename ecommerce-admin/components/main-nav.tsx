@@ -20,8 +20,14 @@ export function MainNav({
     {
       href: `/${params.storeId}/billboards`,
       label: "Billboards",
-      active: pathName === `/${params.storeId}/billboard`,
+      active: pathName === `/${params.storeId}/billboards`,
     },
+    {
+      href: `/${params.storeId}/categories`,
+      label: "Categories",
+      active: pathName === `/${params.storeId}/categories`,
+    },
+
     {
       href: `/${params.storeId}/settings`,
       label: "Settings",

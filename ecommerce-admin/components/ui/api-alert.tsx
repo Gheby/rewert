@@ -1,9 +1,8 @@
-
 "use client";
 
 import React from "react";
 import { Alert, AlertDescription, AlertTitle } from "./alert";
-import { Copy, Server, ServerIcon } from "lucide-react";
+import { Copy, Server } from "lucide-react";
 import { Badge, BadgeProps } from "./badge";
 import { Button } from "./button";
 import toast from "react-hot-toast";
